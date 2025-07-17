@@ -1,0 +1,30 @@
+/* Galería de productos */
+.galeria {
+  background-color: #fff2f7;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.galeria h2 {
+  color: #b06584;
+  margin-bottom: 1.5rem;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imagenes img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.imagenes img:hover {
+  transform: scale(1.05);
+}
